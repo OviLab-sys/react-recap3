@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Alert } from './alert';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Alert heading="success" closable>
+        Everything Looks good
+      </Alert>
     </div>
   );
 }
